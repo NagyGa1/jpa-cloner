@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>sg.studium</groupId>
 	<artifactId>jpa-cloner</artifactId>
-	<version>1.0.4-SNAPSHOT</version>
+	<version>1.0.4</version>
 	<packaging>jar</packaging>
 	<name>JPA Cloner</name>
 	<description>JPA Cloner allows cloning of JPA entity subgraphs.</description>
@@ -18,17 +18,17 @@
 
 	<developers>
 		<developer>
-			<name>Miroslav Nociar</name>
-			<email>nociarmi@gmail.com</email>
-			<organization></organization>
-			<organizationUrl>https://github.com/nociar</organizationUrl>
+			<name>Gabor Nagy</name>
+			<email>nagyga1@gmail.com</email>
+			<organization>Studium Pte Ltd</organization>
+			<organizationUrl>https://github.com/NagyGa1</organizationUrl>
 		</developer>
 	</developers>
 
 	<scm>
-		<connection>scm:git:git@github.com:nociar/jpa-cloner.git</connection>
-		<developerConnection>scm:git:git@github.com:nociar/jpa-cloner.git</developerConnection>
-		<url>git@github.com:nociar/jpa-cloner.git</url>
+		<connection>scm:git:git@github.com:NagyGa1/jpa-clone.git</connection>
+		<developerConnection>scm:git:git@github.com:NagyGa1/jpa-clone.git</developerConnection>
+		<url>git@github.com:NagyGa1/jpa-clone.git</url>
 	</scm>
 
 	<properties>

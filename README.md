@@ -6,11 +6,16 @@ Cloned entities will have all basic properties copied by default.
 Advanced control over the cloning process is supported via the **PropertyFilter** interface.
 ```xml
 <dependency>
-    <groupId>com.github.nociar</groupId>
+    <groupId>sg.studium</groupId>
     <artifactId>jpa-cloner</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
 </dependency>
 ```
+
+## Fork info
+
+* Proper handling of hibernate proxies
+* dependency on sg.studium:hibernate-proxy-utils
 
 ## Example usage
 ```java
