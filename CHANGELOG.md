@@ -1,3 +1,7 @@
+## 1.0.4
+- uses proper class if there is a hibernate proxy with @MappedSuperclass descendants
+- dependency on sg.studium:hibernate-proxy-utils:1.0.0
+
 ## 1.0.3
 - breaking change: PropertyFilter interface moved to the root package sk.nociar.jpacloner  
 - \*ToMany relations are cloned after \*ToOne relations

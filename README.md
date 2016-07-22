@@ -4,13 +4,6 @@
 The project allows cloning of JPA **entity subgraphs**. Entity subgraphs are defined by string patterns.
 Cloned entities will have all basic properties copied by default.
 Advanced control over the cloning process is supported via the **PropertyFilter** interface.
-```xml
-<dependency>
-    <groupId>sg.studium</groupId>
-    <artifactId>jpa-cloner</artifactId>
-    <version>1.0.4</version>
-</dependency>
-```
 
 ## Fork info
 
