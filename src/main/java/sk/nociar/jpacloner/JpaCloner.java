@@ -1,5 +1,7 @@
 package sk.nociar.jpacloner;
 
+import sg.studium.hproxyutil.HProxyUtil;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
@@ -81,7 +83,7 @@ public final class JpaCloner {
 		Map<Object, Object> originalToClone = new HashMap<Object, Object>(explorer.entities.size());
 		// clone each explored JPA entity
 		for (Object original : explorer.entities.keySet()) {
-			JpaClassInfo classInfo = JpaClassInfo.get(original.getClass());
+			JpaClassInfo classInfo = JpaClassInfo.get(HProxyUtil.getClass(original));
 			Object clone;
 			try {
 				clone = classInfo.getConstructor().newInstance();
